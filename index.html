@@ -472,7 +472,7 @@ function showSection(n){
      '<a href="#contents">目錄</a>'+(q?'<a href="#s'+q.n+'">§ '+q.n+' '+esc(q.t)+' ›</a>':'<span></span>')+'</nav>';
   h+='<p class="src">'+(S.layout==='aligned'?'對齊模式按共同字詞自動排列，空白表示該卷福音書沒有相應的字句。':'')+'粗體出處：經文在此處按該卷福音書本身的次序出現；普通出處附“→ §”：從別處重複列出的平行經文，按原本次序出現於該段。經文：《和合本》（1919），公有領域。〔 〕內為和合本原有的小字註。'+'</p>';
   app.innerHTML=h;
-  document.title='§ '+n+' '+s.t+' — 四福音合參';
+  document.title='§ '+n+' '+s.t+' — 四福音合參（和合本）';
   window.scrollTo(0,0);
 }
 
